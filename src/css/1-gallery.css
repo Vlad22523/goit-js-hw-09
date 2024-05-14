@@ -1,0 +1,39 @@
+.container {
+}
+
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+}
+
+.gallery-item {
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: all 200ms linear;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
+
+.style {
+  text-align: center;
+  fill: white;
+}
+
+.title {
+  color: black;
+  font-size: 25px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
